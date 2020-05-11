@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier", // od tej pory eslint nie bedzie wchodzil w konflkt z prettier
+    "prettier/react"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [ // nazwa reguły
+      1, // włączona reguła
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}
